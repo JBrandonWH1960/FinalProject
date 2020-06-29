@@ -46,13 +46,13 @@ create the tidy data sets as outlined by final project requirements.
 * yData[,1] <- theActivity[yData[,1],2]   **this statement replaces numeric values with descriptions from the activity dataset "theActivity".**
 * head(yData)    **investigating the first few records of yData to ensure activity dataset descriptions are used.**
 
-V1
-1 STANDING
-2 STANDING
-3 STANDING
-4 STANDING
-5 STANDING
-6 STANDING
+### V1  
+1| STANDING  
+2| STANDING  
+3| STANDING  
+4| STANDING  
+5| STANDING  
+6| STANDING  
 
 ## Step Number 4: Label the data set with descriptive variable (column names).
 
