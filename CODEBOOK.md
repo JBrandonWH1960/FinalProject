@@ -1,10 +1,11 @@
-#Getting and Cleaning Data
-#Final Project Code Book
+# Getting and Cleaning Data
+
+# Final Project Code Book
 
 This code book contains descriptions of all associated variables, the data used, and all transformations necessary to 
 create the tidy data sets as outlined by final project requirements.
 
-#Design Notes:
+# Design Notes:
 
 * The data come from the accelerometers on a Samsung Galaxy S II smartphone. It recorded various accelerometer measurements for 30 subjects during different prescribed activities. More information on the experiment can be found at: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -13,9 +14,9 @@ create the tidy data sets as outlined by final project requirements.
 * The unzipped files are stored in my data working directory and creates the subdirectory 'UCI HAR Dataset' which contains all the raw data and a README.txt which describes the dataset.
 * The raw data is separated into test and training datasets stored here: /UCI HAR Dataset/test & /UCI HAR Dataset/train. Within each of the test and training datasets the data are separated into files for measurement data, the activity labels, and the test subject labels.
 
-#Code Book Steps:
+# Code Book Steps:
 
-##Step Number 1: Merges the training and test data sets to create 1 final combined data set.
+## Step Number 1: Merges the training and test data sets to create 1 final combined data set.
 
 * theXTest <- read.table("UCI HAR DATASET/Test/X_Test.txt")
 * theYTest <- read.table("UCI HAR DATASET/Test/y_Test.txt")
