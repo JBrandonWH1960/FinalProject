@@ -40,7 +40,7 @@ create the tidy data sets as outlined by final project requirements.
 * x <- xData[,index]  **getting only the variables with mean/stdev**
 * dim(x)  **validing the dim of the data subset  | 10299    66**
 
-## Step Number 3:  Ue descriptiveactivity names to name the activities in my data set
+## Step Number 3:  Use descriptive activity names to name the activities in my data set
 
 
 * yData[,1] <- theActivity[yData[,1],2]   **this statement replaces numeric values with descriptions from the activity dataset "theActivity".**
