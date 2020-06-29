@@ -56,7 +56,7 @@ create the tidy data sets as outlined by final project requirements.
 * head(finalData[,c(1:4)])   **test the first 5 columns to ensure descriptive variable names are correct.**
 
 
-## Step Numer 5: from my data in step 4, create a second, independent ticy data set with the average of each variable for each activity and each subject
+## Step Numer 5: from my data in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 * myFinalDataSet <- data.table(finalData)
 * head(myFinalDataSet)  **do a test to ensure clone of finalData from step 4**
