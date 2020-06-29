@@ -63,13 +63,13 @@ create the tidy data sets as outlined by final project requirements.
 * finalData <- cbind(theSubject, yData, xData)
 * head(finalData[,c(1:4)])   **test the first 5 columns to ensure descriptive variable names are correct.**
 
-  SubjectID Activity tBodyAcc-mean()-X tBodyAcc-mean()-Y
-1         2 STANDING         0.2571778       -0.02328523
-2         2 STANDING         0.2860267       -0.01316336
-3         2 STANDING         0.2754848       -0.02605042
-4         2 STANDING         0.2702982       -0.03261387
-5         2 STANDING         0.2748330       -0.02784779
-6         2 STANDING         0.2792199       -0.01862040
+|  SubjectID| Activity| tBodyAcc-mean()-X| tBodyAcc-mean()-Y  
+1 |         2|  STANDING |         0.2571778|        -0.02328523  
+2 |         2|  STANDING|          0.2860267|        -0.01316336  
+3 |         2|  STANDING|          0.2754848 |       -0.02605042  
+4 |         2 | STANDING |         0.2702982|        -0.03261387  
+5 |         2|  STANDING |         0.2748330 |       -0.02784779  
+6 |         2 | STANDING |         0.2792199 |       -0.01862040  
 
 ## Step Numer 5: from my data in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
