@@ -99,7 +99,7 @@ head(myFinalDataSet)  ##do a test to ensure clone of finalData from step 4
 myTidyData <- myFinalDataSet[, lapply(.SD, mean), by = 'SubjectID,Activity'] ##pulls the averages by subjectid and activity
 dim(myTidyData)   ## Validates data set | 180 68
 write.table(myTidyData, file = myTidyData.txt, row.names = FALSE)  ##validated data file created in my working directory.
-head(myTidyData[order(SubjectID)][,c(1:4), with = FALES], 6)  ##View the first few rows for validation
+head(myTidyData[order(SubjectID)][,c(1:4), with = FALSE], 6)  ##View the first few rows for validation
 
 
 
